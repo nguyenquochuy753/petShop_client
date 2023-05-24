@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 35px 5px 35px;
+    align-items: center;
+}
+.navbar_logo{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+.navbar_content{
+    width: 350px;
+    justify-content: space-between;
+    display: flex;
+}
+.navbar_content a{
+    text-decoration: none;
+    color: gray;
+    /* background: linear-gradient(to right, #f09612, #F6AE32, #FCC752);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    font-weight: bold;
+}
+.navbar_signin{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background: linear-gradient(to right , #f09612, #F6AE32,#FCC752);
+    padding-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.navbar_content a:hover{
+    text-decoration: none;
+    background: linear-gradient(to right, #f09612, #F6AE32, #FCC752);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.navbar_content a.active {
+    text-decoration: none;
+    background: linear-gradient(to right, #f09612, #F6AE32, #FCC752);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
